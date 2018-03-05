@@ -5,6 +5,8 @@ $upper-img-width = 260px
 
 .upper__text-under-title
   @extend .under-title
+  +respond-to($xsmall)
+    font-size: 16px
 
 .upper__text-under-title--last
   +respond-to($small)
