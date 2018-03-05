@@ -1,0 +1,14 @@
+$upper-img-width = 260px
+
+.upper__content
+  position: relative
+
+.upper__text-under-title
+  @extend .under-title
+
+.upper__text-under-title--last
+  +respond-to($small)
+    margin-left: 0
+
+.upper__text-main
+  @extend .main-text
